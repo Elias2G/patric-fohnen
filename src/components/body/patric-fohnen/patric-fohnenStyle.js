@@ -11,11 +11,15 @@ export const Container = styled.div`
   ${props => props.text && css`
     padding: 10px;
     box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
   `}
 `;
 
 export const Title = styled.h1`
-  font-size: 24pt;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 32pt;
   text-align: center;
   color: #2b2b2b;
 `;
@@ -52,7 +56,7 @@ export const BigTitle = styled.h1`
 
   ${props => props.removeMargin && css`
     margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0;
   `}
 `;
 
